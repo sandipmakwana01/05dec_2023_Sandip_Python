@@ -1,3 +1,5 @@
+"""Write a Python function to get the largest number, smallest num and sum
+of all from a list"""
 def lss(x):
     largest_num = max(x)
     smallest_num = min(x)
