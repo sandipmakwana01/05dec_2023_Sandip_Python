@@ -1,5 +1,6 @@
 """Write a Python script to sort (ascending and descending) a dictionary by
 value"""
+
 def sort(x, reverse=False):
     return dict(
         sorted(
@@ -15,3 +16,4 @@ print("Sorted in ascending order:", ascending)
 
 descending = sort(a, reverse=True)
 print("Sorted in descending order:", descending)
+
